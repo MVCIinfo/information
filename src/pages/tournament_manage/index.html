@@ -2,11 +2,14 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>図書館蔵書システム</title>
+  <title>トーナメント管理システム</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>図書館蔵書システム</h1>
+  <h1>トーナメント管理システム</h1>
+  <p>
+    トーナメント情報を登録して優勝者などの情報からフィルタ分けできるようにします
+    ゆくゆくは<a href="https://replaytheater.app/?game=umvc3">こういう形に</a>出来たらいいですね</p>
   <button id="add-filter">＋ フィルタ/検索を追加</button>
   <span id="result-count">合計: 0 件</span>
   <div id="filters"></div>
@@ -27,6 +30,6 @@
       <!-- データがここに表示されます -->
     </tbody>
   </table>
-  <script src="scripts.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
