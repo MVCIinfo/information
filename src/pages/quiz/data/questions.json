@@ -1,0 +1,51 @@
+[
+    {
+        "question": "これはだれですか？",
+        "image": "images/who.png",
+        "answers": [
+            { "text": "ウルトロン", "correct": false },
+            { "text": "ウルトロンシグマ", "correct": true },
+            { "text": "ウルトロンオメガ", "correct": false },
+            { "text": "シグマ", "correct": false }
+        ]
+    },
+    {
+        "question": "これ作った人凄いと思いません？僕は思います",
+        "image": "images/score.png",
+        "answers": [
+            { "text": "思う", "correct": true },
+            { "text": "思わない", "correct": false },
+            { "text": "なにこれ？", "correct": false },
+            { "text": "何の時間？", "correct": false }
+        ]
+    },
+    {
+        "question": "このイケメンのオレちゃんが出るゲームは？",
+        "image": "images/anime.png",
+        "answers": [
+            { "text": "MVC1", "correct": false },
+            { "text": "MVC2", "correct": false },
+            { "text": "MVC3", "correct": true },
+            { "text": "MVCI", "correct": false }
+        ]
+    },
+    {
+        "question": "2vs2で戦うのはどれですか？",
+        "answers": [
+            { "text": "MVC2", "correct": false },
+            { "text": "MVC3", "correct": false },
+            { "text": "MVCI", "correct": true },
+            { "text": "最近のプリキュア", "correct": false }
+        ]
+    },
+    {
+        "question": "これカスったらコンボ行くの無法では？(GIF再生テスト)",
+        "image": "images/Winter_gun_loop.gif",
+        "answers": [
+            { "text": "MOD開発自体は良いと思う", "correct": false },
+            { "text": "赤いのが当たり判定", "correct": false },
+            { "text": "画像出てなくね？", "correct": false },
+            { "text": "無法(これが正解です)", "correct": true }
+        ]
+    }
+]
